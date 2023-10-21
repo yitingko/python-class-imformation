@@ -1,0 +1,4 @@
+#學生總分為300
+import pyinputplus as pyip
+scores = pyip.inputInt("請輸入學生分數(最高300分):")
+print("學生分數為", Scores)
