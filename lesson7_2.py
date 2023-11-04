@@ -1,5 +1,5 @@
 import random
-def main():
+def playGame():
     min = 1
     max = 100
     count = 0
@@ -25,6 +25,12 @@ def main():
             print("請輸入提示範圍內的數字")
     print(f"您猜了{count}次")
     print("遊戲結束")
-
+def main():
+    while(True):
+        playGame()
+        playAgain = input("您還要繼續嗎(y,n)?")
+        if playAgain=='n':
+            break
+    print("遊戲結束") 
 if __name__ == "__main__":
     main()
