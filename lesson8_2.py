@@ -6,3 +6,4 @@ print(stu1.chinese)
 print(stu1.english)
 print(stu1.math)
 print(stu1.sum())
+
